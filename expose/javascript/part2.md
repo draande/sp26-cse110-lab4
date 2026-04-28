@@ -52,7 +52,7 @@ does type coercion. The latter gives me false if the types are different!
 17) [2, 4, 6] because modifyArray iterates through [1, 2, 3]. For each element, it calls doSomething, 
 and this multiplies the number by 2 (1x2, 2x2, 3x2) and populates newArr with the result 
 
-**Part 1g: Final Question**
+**Part 1h: Final Question**
 
 19) 1, 4, 3, 2 → 1 and 4 are immediately logged as synchronous code. setTimeout with 0 ms. is 
 added to the event queue and runs after main script. setTimeout with 1000 ms runs last. 
