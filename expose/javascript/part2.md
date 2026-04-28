@@ -17,28 +17,31 @@ changed with .push().
 
 **Part 1c: Data Types**
 
-12) a) student.name 
-b) student[‘Grad Year’] 
-c) student.greeting() 
-d) student[‘Favorite Teacher’].name 
-e) student.courseLoad[0] 
+12)  
+a) student.name  
+b) student[‘Grad Year’]  
+c) student.greeting()  
+d) student[‘Favorite Teacher’].name  
+e) student.courseLoad[0]  
 
 **Part 1d: Basic Operators & Type Conversion**
 
-13) a) 32 → because this becomes concatenation during addition 
-b) 1 → because this becomes numeric operation for subtraction 
-c) 3 → because null becomes 0 in numeric operations 
-d) 3null → because null becomes the string “null” 
-e) 4 → because true becomes 1 
-f) 0 → because both false and null mean 0 
-g) 3undefined → because undefined becomes a string 
-h) NaN → undefined becomes NaN in math 
+13)  
+a) 32 → because this becomes concatenation during addition  
+b) 1 → because this becomes numeric operation for subtraction  
+c) 3 → because null becomes 0 in numeric operations  
+d) 3null → because null becomes the string “null”  
+e) 4 → because true becomes 1  
+f) 0 → because both false and null mean 0  
+g) 3undefined → because undefined becomes a string  
+h) NaN → undefined becomes NaN in math  
 
-14) a) true → the string ‘2’ becomes 2 
-b) false → we just go by alphabet 
-c) true → the ‘==” turns the 2 into ‘2’ 
-d) false → strict equality makes sure to check the value AND the type 
-e) false → true is coerced into 1, and 1 != 2 
+14)  
+a) true → the string ‘2’ becomes 2  
+b) false → we just go by alphabet  
+c) true → the ‘==” turns the 2 into ‘2’  
+d) false → strict equality makes sure to check the value AND the type  
+e) false → true is coerced into 1, and 1 != 2  
 f) true → Boolean(2) gives me true, and they’re the same type.  
 
 15) == is almost looser than === because the former kind of forces equality in some cases because it 
